@@ -1,0 +1,30 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.round-button {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: black;
+  border: none;
+}
+.countdown {
+  display: none;
+  font-size: 40px;
+  color: black;
+}
